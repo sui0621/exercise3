@@ -23,6 +23,4 @@ printf("Rolling dice...\n");
 
     if(add > 7) printf("You won\n");
     else printf("You lost\n");
-
-
 }
