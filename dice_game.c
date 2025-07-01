@@ -21,6 +21,6 @@ printf("Rolling dice...\n");
     add = dice1 + dice2;
     printf("Total value: %d\n",add);
 
-    if(add > 7) printf("You won\n");
-    else printf("You lost\n");
+    if(add > 7) printf("%s won\n",name);
+    else printf("%s lost\n",name);
 }
